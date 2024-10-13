@@ -1,0 +1,28 @@
+﻿<div class="user">
+@if(image is null){
+    <div class="avatar">
+    <span class="initials">@GetInitials(name)</span>
+  </div>
+} else {
+  <div class="avatar">
+    <img src="@($"assets/images/{image}.png")" alt="@name">
+  </div> 
+}
+  <div class="info">
+    <span class="name">@name</span>
+    <span class="occupation">@occupation</span>
+  </div>
+</div>
+
+@code {
+  [Parameter] public string name {get; set;} = string.Empty;
+  [Parameter] public string occupation {get; set;} = string.Empty;
+  [Parameter] public string? image {get; set;}
+
+public string GetInitials(string fullName){
+  string[] names = fullName.Split(" ");
+  string initials = char.ToUpper(names[0][0]) + "" + char.ToUpper(names[1][0]);
+  return initials;
+}
+
+}

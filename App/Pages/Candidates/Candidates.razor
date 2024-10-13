@@ -1,0 +1,54 @@
+﻿@page "/candidates"
+@using static Microsoft.AspNetCore.Components.Web.RenderMode
+@rendermode InteractiveServer
+@using BlazorApp.App.Widgets.TabOption
+
+<PageTitle>Кандидаты</PageTitle>
+
+<div class="container">
+  <div class="head">
+    <h1 class="title">Информация о кандидате</h1>
+  </div>
+  <div class="tabs">
+    <div class="scrollable">
+    @if(items is null){
+    <div>Loading</div>
+    } else {
+        @foreach(var tab in items){
+        <TabOption 
+        id="@tab.Id" 
+        name="@tab.Name" 
+        notifications="@tab.Notifications" 
+        OnClick="setId" 
+        isActive="@(tab.Id == activeId ? true : false)"/>
+      }
+    }
+    </div>
+
+  </div>
+  <div class="content">
+    <div class="main">
+      <CandidateInfo/>
+    </div>
+    <div class="row">
+      <div class="vacancies"><Vacancies/></div>
+      <div class="comments"><Comments/></div>
+    </div>
+  </div>
+</div>
+
+@code { 
+    private EntityTabs tabs = new();
+
+    private TabItem[]? items;
+
+    protected override void OnInitialized(){
+      items = tabs.GetTabs();
+    }
+
+    public int activeId {get; set;} = 1;
+
+    public void setId(int newId){
+      activeId = newId;
+    }
+}

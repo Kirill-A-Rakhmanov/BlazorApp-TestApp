@@ -1,0 +1,97 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.message {
+  border-radius: 8px;
+  padding: 6px 10px;
+  background-color: #f6f6f6;
+}
+.content {
+  display: flex;
+}
+.body {
+  flex: 1 1 auto;
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.file {
+  padding: 4px 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.image {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image img {
+}
+
+.action {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-icon {
+  color: #fff;
+}
+
+.file-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.file-name {
+  max-width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.file-weight {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #747476;
+}
+
+.time {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: #747476;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .file-name {
+    max-width: 150px;
+  }
+}

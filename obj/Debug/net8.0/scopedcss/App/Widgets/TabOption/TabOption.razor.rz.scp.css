@@ -1,0 +1,52 @@
+.wrapper[b-dt7793nqqi] {
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 6px;
+  position: relative;
+  height: 48px;
+}
+
+.wrapper[b-dt7793nqqi]::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 1px;
+  width: 0;
+  background-color: #18181b;
+  transition: all 0.3s ease;
+}
+
+.wrapper.active[b-dt7793nqqi]::after {
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.name[b-dt7793nqqi] {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+  white-space: nowrap;
+}
+.badge[b-dt7793nqqi] {
+  border-radius: 120px;
+  padding: 2px 6px;
+  height: 20px;
+  min-width: 20px;
+  background-color: #d6ff2b;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #18181b;
+}

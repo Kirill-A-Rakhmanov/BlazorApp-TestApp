@@ -1,0 +1,34 @@
+@rendermode InteractiveServer
+
+<button class="button button-back">
+  <span class="icon icon-arrow-small"></span>
+</button>
+<div class="braidcrumb">
+  <span class="link gray">Кандидаты</span>
+  <span class=" angle icon-angle-right"></span>
+  <span class="link">Информация о кандидате</span>
+</div>
+<div class="info">
+  <div class="controls @(isOpen ? "active" : "")">
+      <button class="button">
+        <span class="icon icon-search"></span>
+      </button>
+      <button class="button">
+        <span class="icon icon-notifications"></span>
+        <div class="badge">12</div>
+      </button>
+      <button class="button">
+        <span class="icon icon-light"></span>
+      </button>
+  </div>
+  <button class="button-profile" @onclick="toggleControlls">
+    <span class="name">АС</span>
+  </button>
+</div>
+
+@code{
+  private bool isOpen = false;
+  private void toggleControlls(){
+    isOpen = !isOpen;
+  }
+}

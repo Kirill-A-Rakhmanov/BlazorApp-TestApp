@@ -1,0 +1,77 @@
+﻿@using BlazorApp.App.Shared.UI.ButtonIconSmall
+@using BlazorApp.App.Shared.UI.User
+
+<div class="wrapper">
+  <h3 class="header">Основная информация</h3>
+  <div class="user">
+    <div class="avatar">
+      <span class="initials">КВ</span>
+    </div>
+    <span class="info">Константинопольский Валерий Сергеевич</span>
+  </div>
+  <ul class="list">
+    <li class="list-item">
+      <span class="name text">Телефон</span>
+      <div class="value">
+        <div class="row">
+          <span class="text">+7 (927) 699-22-32</span>
+          <ButtonIconSmall iconName="copy"/>
+        </div>
+        <div class="row">
+          <span class="text">Искать в</span>
+          <ButtonIconSmall iconName="telegram"/>
+          <ButtonIconSmall iconName="whatsapp"/>
+        </div>
+      </div>
+    </li>
+    <li class="list-item">
+      <span class="name text">Email</span>
+      <div class="value">
+        <span class="text">konstantinopol@gmail.com</span>
+      </div>
+    </li>
+    <li class="list-item">
+      <span class="name text">Telegram</span>
+      <div class="value">
+        <span class="text">@@konstantinopol</span>
+      </div>
+    </li>
+    <li class="list-item">
+      <span class="name text">Источник</span>
+      <div class="value">
+        <div class="source">
+          <div class="source-avatar">
+            <span class="source-initials">hh</span>
+          </div>
+          <div class="source-info">
+            <span class="source-name">hh.ru</span>
+            <span class="occupation">Должность</span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="list-item">
+      <span class="name text">Вакансия</span>
+      <div class="value">
+        <span class="text">Back-end Разработчик</span>
+      </div>
+    </li>
+    <li class="list-item">
+      <span class="name text">Рекрутер</span>
+      <div class="value">
+        <User name="Александр Смахтин" occupation="Должность"/>
+      </div>
+    </li>
+    <li class="list-item">
+      <span class="name text">Желаемая зарплата</span>
+      <div class="value">
+        <span class="text">100 000 ₽ - 120 000 ₽</span>
+      </div>
+    </li>
+  </ul>
+
+</div>
+
+@code {
+
+}

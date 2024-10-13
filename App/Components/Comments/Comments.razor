@@ -1,0 +1,63 @@
+﻿@using BlazorApp.App.Entities
+@using BlazorApp.App.Shared.Model
+@using BlazorApp.App.Widgets.Message
+
+<div class="wrapper">
+  <h3 class="title">Комментарии</h3>
+  <div class="comments">
+    <div class="body">
+      <div class="scrollable">
+        @if(items is null){
+        <div>Loading...</div>
+      } else {
+        @foreach(var item in items){
+          <Message message="@item"/>
+        }
+      }
+      </div>
+    </div>
+    <form class="chat-bar" @onsubmit="handleSubmit">
+      <button class="attach">
+        <span class="icon-attach"></span>
+      </button>
+      <div class="input">
+        <input type="text" placeholder="Комментарий" @bind="inputValue">
+      </div>
+      <button class="submit">
+        <span class="sent">
+          <span class="icon-sent"></span>
+        </span>
+      </button>
+    </form>
+  </div>
+</div>
+
+@code {
+    private EntityComments comments = new();
+
+    private MessageItem[]? items;
+
+    private UserInfo currentUser = new(){
+      Name = "Кирилл Рахманов",
+      Occupation = "Пользователь",
+    };
+
+    protected override void OnInitialized(){
+        items = comments.GetMessages();
+    }
+
+    public string? inputValue {get;set;}
+
+    public void handleSubmit(){
+      if(!string.IsNullOrWhiteSpace(inputValue)){
+        comments.AddComment(
+          new(){
+            User = currentUser,
+            Text = inputValue,
+            DateTime = DateTime.Now
+          }
+        );
+      }
+      inputValue = null;
+    }
+}    

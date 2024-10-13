@@ -1,0 +1,145 @@
+.wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #18181b;
+}
+
+.user {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.avatar {
+  flex: 0 0 96px;
+  border-radius: 120px;
+  padding: 10px;
+  width: 96px;
+  height: 96px;
+  background-color: #929298;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initials {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+
+.info {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #18181b;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.list-item {
+  display: flex;
+  gap: 12px;
+}
+.text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+.name {
+  flex: 0 0 40%;
+  color: #747476;
+}
+.value {
+  flex: 1 1 auto;
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+}
+
+.source {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.source-avatar {
+  border-radius: 120px;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.source-initials {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.source-info {
+  display: flex;
+  gap: 6px;
+  align-items: end;
+}
+
+.source-name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.occupation {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #747476;
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    flex: 0 0 64px;
+    height: 64px;
+  }
+  .initials {
+    font-size: 24px;
+  }
+  .list-item {
+    flex-direction: column;
+    gap: 6px;
+  }
+}

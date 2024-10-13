@@ -1,0 +1,47 @@
+﻿@rendermode InteractiveServer
+@using BlazorApp.App.Widgets.MenuOption
+
+<div class="head">
+    <a class="logo" href=""><span class="logo icon-logo"></span></a>
+    <button class="menu-button">
+        <span class="menu-icon @(isChecked ? "icon-close" : "icon-toolbar")" ></span>
+        <input type="checkbox" class="navbar-toggler"  @bind="isChecked"/>
+    </button>
+</div>
+
+
+<div class="nav-scrollable @(isChecked ? "active" : "")" @onclick="closeMenu">
+    <nav class="menu">
+
+        @if(items is null){
+            <div>Loading</div>
+        } else {
+            @foreach(var item in items){
+                <MenuOption 
+                icon="@item.IconName" 
+                name="@item.Name" 
+                notifications="@item.NotificationsNumber" 
+                subMenu="@item.SubElements"
+                link="@item.PageLink"/>
+            }
+        }
+
+    </nav>
+</div>
+
+
+@code{
+
+    private EntityMenu menu = new();
+
+    private MenuItem[]? items;
+
+    protected override void OnInitialized(){
+        items = menu.GetMenuItems();
+    }
+    private bool isChecked = false;
+
+    private void closeMenu(){
+        isChecked = false;
+    }
+}

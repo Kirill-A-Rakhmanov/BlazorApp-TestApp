@@ -1,0 +1,19 @@
+﻿<button class="wrapper @(isActive ? "active" : "")" @onclick="handleClick">
+  <span class="name">@name</span>
+  @if(notifications is not null){
+    <div class="badge">@notifications</div>
+  }
+</button>
+
+@code {
+  [Parameter] public int id {get; set;}
+  [Parameter] public string name {get; set;} = string.Empty;
+  [Parameter] public int? notifications {get; set;}
+  [Parameter] public bool isActive {get; set;} 
+  [Parameter] public EventCallback <int> OnClick {get; set;}
+
+  private void handleClick()
+  {
+    OnClick.InvokeAsync(id);  
+  }
+}

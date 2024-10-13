@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+<div>
+    <NavLink href="@($"/{link}")" class="wrapper" Match="NavLinkMatch.All" ActiveClass="active">
+        <span class="icon icon-@icon"></span>
+            <div class="link">
+                <span class="text">@name</span>
+                @if(notifications is not null){
+                    <div class="badge">@notifications</div>
+                }
+            </div>
+        @if(subMenu){
+            <span class="angle icon-angle-right"></span>
+        }
+    </NavLink> 
+    @if(subMenu){
+        <div class="subitems">
+            <div class="subitem">item 1</div>
+            <div class="subitem">item 2</div>
+        </div>
+    }
+</div>
+
+@code {
+  [Parameter] public string name {get; set;} = string.Empty;
+  [Parameter] public string icon {get; set;} = string.Empty;
+  [Parameter] public int? notifications {get; set;}
+  [Parameter] public bool subMenu {get; set;}
+  [Parameter] public string link {get; set;} = string.Empty;
+}

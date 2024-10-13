@@ -1,0 +1,127 @@
+.button[b-hyxc8z6s5k],
+.button-profile[b-hyxc8z6s5k] {
+  flex: 0 0 44px;
+  cursor: pointer;
+  /* background-color: transparent; */
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  position: relative;
+}
+
+.button:hover[b-hyxc8z6s5k] {
+  background-color: #f6f6f6;
+}
+
+.button-profile[b-hyxc8z6s5k] {
+  background-color: #929298;
+  padding: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #fff;
+}
+
+.icon[b-hyxc8z6s5k] {
+  font-size: 18px;
+}
+
+.badge[b-hyxc8z6s5k] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 120px;
+  padding: 2px 6px;
+  height: 20px;
+  min-width: 20px;
+  background-color: #d6ff2b;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #18181b;
+}
+
+.braidcrumb[b-hyxc8z6s5k] {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.link[b-hyxc8z6s5k] {
+  cursor: pointer;
+  position: relative;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.link[b-hyxc8z6s5k]::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 1px;
+  width: 0;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.link:hover[b-hyxc8z6s5k]::after {
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.gray[b-hyxc8z6s5k] {
+  color: #747476;
+}
+
+.angle[b-hyxc8z6s5k] {
+  font-size: 20px;
+}
+
+.info[b-hyxc8z6s5k] {
+  position: relative;
+}
+
+.info[b-hyxc8z6s5k],
+.controls[b-hyxc8z6s5k] {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .braidcrumb[b-hyxc8z6s5k] {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .controls[b-hyxc8z6s5k] {
+    padding: 4px;
+    position: absolute;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    left: -4px;
+    top: 50px;
+    display: none;
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .controls.active[b-hyxc8z6s5k] {
+    display: block;
+  }
+}

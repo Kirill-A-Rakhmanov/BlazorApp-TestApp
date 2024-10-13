@@ -1,0 +1,173 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\fonts\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\icomoon\\icomoon.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\angle-down.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\angle-down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\angle-right.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\angle-right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\arrow-small.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\arrow-small.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\attach.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\attach.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\candidate.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\candidate.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\chat.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\chat.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\close.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\close.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\copy.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\create.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\create.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\dashboard.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\dashboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\delete.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\delete.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\download.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\download.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\job.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\job.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\light.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\light.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\mail.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\member-search.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\member-search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\notifications.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\notifications.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\search.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\sent.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\sent.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\settings.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\star.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\study.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\study.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\telegram.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\telegram.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\toolbar.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\toolbar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\icons\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\assets\\icons\\whatsapp.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\images\\avatar2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\assets\\images\\file.png",
+      "PackagePath": "staticwebassets\\assets\\images\\file.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\VS Code\\BlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorApp.props",
+      "PackagePath": "build\\BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp.props",
+      "PackagePath": "buildTransitive\\BlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,145 @@
+.wrapper[b-ss3uytvewx] {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #18181b;
+}
+
+.user[b-ss3uytvewx] {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.avatar[b-ss3uytvewx] {
+  flex: 0 0 96px;
+  border-radius: 120px;
+  padding: 10px;
+  width: 96px;
+  height: 96px;
+  background-color: #929298;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initials[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+
+.info[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #18181b;
+}
+
+.list[b-ss3uytvewx] {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.list-item[b-ss3uytvewx] {
+  display: flex;
+  gap: 12px;
+}
+.text[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+.name[b-ss3uytvewx] {
+  flex: 0 0 40%;
+  color: #747476;
+}
+.value[b-ss3uytvewx] {
+  flex: 1 1 auto;
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.row[b-ss3uytvewx] {
+  display: flex;
+  gap: 6px;
+}
+
+.source[b-ss3uytvewx] {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.source-avatar[b-ss3uytvewx] {
+  border-radius: 120px;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.source-initials[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.source-info[b-ss3uytvewx] {
+  display: flex;
+  gap: 6px;
+  align-items: end;
+}
+
+.source-name[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.occupation[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #747476;
+}
+
+@media (max-width: 768px) {
+  .avatar[b-ss3uytvewx] {
+    flex: 0 0 64px;
+    height: 64px;
+  }
+  .initials[b-ss3uytvewx] {
+    font-size: 24px;
+  }
+  .list-item[b-ss3uytvewx] {
+    flex-direction: column;
+    gap: 6px;
+  }
+}

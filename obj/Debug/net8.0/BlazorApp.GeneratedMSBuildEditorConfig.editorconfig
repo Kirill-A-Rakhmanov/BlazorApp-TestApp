@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorApp
+build_property.RootNamespace = BlazorApp
+build_property.ProjectDir = C:\Users\Admin\Desktop\VS Code\BlazorApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\VS Code\BlazorApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXEFwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Components/Vacancies/Vacancies.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXENvbXBvbmVudHNcVmFjYW5jaWVzXFZhY2FuY2llcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Pages/Home/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFBhZ2VzXEhvbWVcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFJvdXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Components/CandidateInfo/CandidateInfo.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXENvbXBvbmVudHNcQ2FuZGlkYXRlSW5mb1xDYW5kaWRhdGVJbmZvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ss3uytvewx
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Components/Comments/Comments.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXENvbXBvbmVudHNcQ29tbWVudHNcQ29tbWVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-x8d6b2q4bg
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Components/Header/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXENvbXBvbmVudHNcSGVhZGVyXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-hyxc8z6s5k
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Components/NavMenu/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXENvbXBvbmVudHNcTmF2TWVudVxOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-nlnqjth6h3
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXExheW91dFxNYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ciu157ue04
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Pages/Candidates/Candidates.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFBhZ2VzXENhbmRpZGF0ZXNcQ2FuZGlkYXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-v5o67465a2
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Shared/UI/ButtonIconSmall/ButtonIconSmall.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFNoYXJlZFxVSVxCdXR0b25JY29uU21hbGxcQnV0dG9uSWNvblNtYWxsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gvzv28zsvw
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Shared/UI/User/User.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFNoYXJlZFxVSVxVc2VyXFVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-m56cgrxtwo
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Widgets/MenuOption/MenuOption.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFdpZGdldHNcTWVudU9wdGlvblxNZW51T3B0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ymf2eznwa9
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Widgets/Message/Message.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFdpZGdldHNcTWVzc2FnZVxNZXNzYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-4ps67kfn9v
+
+[C:/Users/Admin/Desktop/VS Code/BlazorApp/App/Widgets/TabOption/TabOption.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwXFdpZGdldHNcVGFiT3B0aW9uXFRhYk9wdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-dt7793nqqi

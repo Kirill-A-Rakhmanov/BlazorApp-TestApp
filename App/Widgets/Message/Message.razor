@@ -1,0 +1,42 @@
+﻿@using BlazorApp.App.Shared.UI.User
+@using BlazorApp.App.Shared.Model
+
+<div class="wrapper">
+  <div class="user">
+    <User image="@message.User.Image" name="@message.User.Name" occupation="@message.User.Occupation"/>
+  </div>
+  <div class="message">
+    <div class="content">
+      <div class="body">
+        @if(message.Text is not null){
+          <span class="text">@message.Text</span>
+        }
+
+        @if(message.File is not null){
+          <div class="file">
+            <div class="image">
+              <img src=@($"assets/images/{message.File.Cover}.png") alt="@message.File.Cover">
+              <div class="action">
+                <span class="file-icon icon-download"></span>
+              </div>
+            </div>
+            <div class="file-body">
+              <div class="file-name">@message.File.Name</div>
+              <span class="file-weight">@message.File.Weight MB</span>
+            </div>
+          </div>
+        }
+      </div>
+      <div class="time">
+        @(message.DateTime.Hour.ToString("D2") + ":" + message.DateTime.Minute.ToString("D2"))
+      </div>
+    </div>
+  </div>
+</div>
+
+
+@code {
+
+  [Parameter] public required MessageItem message {get; set;}
+
+}

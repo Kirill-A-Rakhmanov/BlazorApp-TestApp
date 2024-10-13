@@ -1,0 +1,66 @@
+::deep .wrapper {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 0 1 44px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+::deep .wrapper.active {
+  background-color: #f6f6f6;
+}
+
+::deep .wrapper:hover {
+  background-color: #f6f6f6;
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.link {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.text {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.badge {
+  border-radius: 120px;
+  padding: 2px 6px;
+  height: 20px;
+  min-width: 20px;
+  background-color: #d6ff2b;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #18181b;
+}
+
+.angle {
+  font-size: 16px;
+  transform: rotate(90deg);
+}
+
+.subitems {
+  display: none;
+}
+
+.subitems.active {
+  display: block;
+}

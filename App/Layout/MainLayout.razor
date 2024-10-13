@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+@using BlazorApp.App.Components.Header
+@using BlazorApp.App.Components.NavMenu
+
+<div class="page">
+    <aside class="menubar">
+        <NavMenu />
+    </aside>
+
+    <main>
+        <header class="header">
+            <Header/>
+        </header>
+        <article class="content">
+            @Body
+        </article>
+    </main>
+</div>

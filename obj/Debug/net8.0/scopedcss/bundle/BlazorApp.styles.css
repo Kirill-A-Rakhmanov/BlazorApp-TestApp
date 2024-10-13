@@ -1,0 +1,845 @@
+/* _content/BlazorApp/App/Components/CandidateInfo/CandidateInfo.razor.rz.scp.css */
+.wrapper[b-ss3uytvewx] {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #18181b;
+}
+
+.user[b-ss3uytvewx] {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.avatar[b-ss3uytvewx] {
+  flex: 0 0 96px;
+  border-radius: 120px;
+  padding: 10px;
+  width: 96px;
+  height: 96px;
+  background-color: #929298;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initials[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #fff;
+}
+
+.info[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #18181b;
+}
+
+.list[b-ss3uytvewx] {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.list-item[b-ss3uytvewx] {
+  display: flex;
+  gap: 12px;
+}
+.text[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+.name[b-ss3uytvewx] {
+  flex: 0 0 40%;
+  color: #747476;
+}
+.value[b-ss3uytvewx] {
+  flex: 1 1 auto;
+  display: flex;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}
+
+.row[b-ss3uytvewx] {
+  display: flex;
+  gap: 6px;
+}
+
+.source[b-ss3uytvewx] {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.source-avatar[b-ss3uytvewx] {
+  border-radius: 120px;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.source-initials[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.source-info[b-ss3uytvewx] {
+  display: flex;
+  gap: 6px;
+  align-items: end;
+}
+
+.source-name[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.occupation[b-ss3uytvewx] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #747476;
+}
+
+@media (max-width: 768px) {
+  .avatar[b-ss3uytvewx] {
+    flex: 0 0 64px;
+    height: 64px;
+  }
+  .initials[b-ss3uytvewx] {
+    font-size: 24px;
+  }
+  .list-item[b-ss3uytvewx] {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+/* _content/BlazorApp/App/Components/Comments/Comments.razor.rz.scp.css */
+.wrapper[b-x8d6b2q4bg] {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+.title[b-x8d6b2q4bg] {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #18181b;
+}
+
+.comments[b-x8d6b2q4bg] {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.body[b-x8d6b2q4bg] {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
+
+.scrollable[b-x8d6b2q4bg] {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chat-bar[b-x8d6b2q4bg] {
+  display: flex;
+  gap: 6px;
+}
+
+.attach[b-x8d6b2q4bg] {
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 0 0 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attach:hover[b-x8d6b2q4bg] {
+  background-color: #e6e6e6;
+}
+
+.attach span[b-x8d6b2q4bg] {
+  font-size: 20px;
+  color: #747476;
+}
+
+.input[b-x8d6b2q4bg] {
+  flex: 1 1 auto;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  padding: 8px 12px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.input input[b-x8d6b2q4bg] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  flex: 1 1 auto;
+}
+
+.input input[b-x8d6b2q4bg]::placeholder {
+  color: #747476;
+}
+
+.input input:focus[b-x8d6b2q4bg] {
+  outline: none;
+}
+
+.submit[b-x8d6b2q4bg] {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 0 0 44px;
+  height: 44px;
+  background-color: #18181b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit span[b-x8d6b2q4bg] {
+  color: #fff;
+}
+/* _content/BlazorApp/App/Components/Header/Header.razor.rz.scp.css */
+.button[b-hyxc8z6s5k],
+.button-profile[b-hyxc8z6s5k] {
+  flex: 0 0 44px;
+  cursor: pointer;
+  /* background-color: transparent; */
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  position: relative;
+}
+
+.button:hover[b-hyxc8z6s5k] {
+  background-color: #f6f6f6;
+}
+
+.button-profile[b-hyxc8z6s5k] {
+  background-color: #929298;
+  padding: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #fff;
+}
+
+.icon[b-hyxc8z6s5k] {
+  font-size: 18px;
+}
+
+.badge[b-hyxc8z6s5k] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 120px;
+  padding: 2px 6px;
+  height: 20px;
+  min-width: 20px;
+  background-color: #d6ff2b;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #18181b;
+}
+
+.braidcrumb[b-hyxc8z6s5k] {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.link[b-hyxc8z6s5k] {
+  cursor: pointer;
+  position: relative;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.link[b-hyxc8z6s5k]::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 1px;
+  width: 0;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.link:hover[b-hyxc8z6s5k]::after {
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.gray[b-hyxc8z6s5k] {
+  color: #747476;
+}
+
+.angle[b-hyxc8z6s5k] {
+  font-size: 20px;
+}
+
+.info[b-hyxc8z6s5k] {
+  position: relative;
+}
+
+.info[b-hyxc8z6s5k],
+.controls[b-hyxc8z6s5k] {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .braidcrumb[b-hyxc8z6s5k] {
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .controls[b-hyxc8z6s5k] {
+    padding: 4px;
+    position: absolute;
+    flex-direction: column;
+    gap: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    left: -4px;
+    top: 50px;
+    display: none;
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .controls.active[b-hyxc8z6s5k] {
+    display: block;
+  }
+}
+/* _content/BlazorApp/App/Components/NavMenu/NavMenu.razor.rz.scp.css */
+.head[b-nlnqjth6h3] {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 10px 10px 20px;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo[b-nlnqjth6h3] {
+  color: #18181b;
+  font-size: 12px;
+}
+
+.menu-button[b-nlnqjth6h3] {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.menu-icon[b-nlnqjth6h3] {
+  font-size: 20px;
+}
+
+.nav-scrollable[b-nlnqjth6h3] {
+  display: block;
+  overflow-y: auto;
+  height: calc(100vh - 64px);
+}
+
+.menu[b-nlnqjth6h3] {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.navbar-toggler[b-nlnqjth6h3] {
+  appearance: none;
+  cursor: pointer;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-scrollable[b-nlnqjth6h3] {
+    display: none;
+  }
+  .nav-scrollable.active[b-nlnqjth6h3] {
+    display: block;
+    height: 100%;
+  }
+  .navbar-toggler[b-nlnqjth6h3] {
+    display: block;
+  }
+}
+/* _content/BlazorApp/App/Layout/MainLayout.razor.rz.scp.css */
+.page[b-ciu157ue04] {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+main[b-ciu157ue04] {
+  flex: 1;
+}
+
+.menubar[b-ciu157ue04] {
+  border-right: 1px solid #e6e6e6;
+  min-width: 260px;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header[b-ciu157ue04] {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 20px;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.content[b-ciu157ue04] {
+  height: calc(100vh - 64px);
+}
+
+@media (max-width: 768px) {
+  .page[b-ciu157ue04] {
+    flex-direction: column;
+  }
+  .menubar[b-ciu157ue04] {
+    max-width: none;
+    min-width: none;
+    width: 100%;
+    border-right: none;
+  }
+  .header[b-ciu157ue04] {
+    height: auto;
+    min-height: 64px;
+  }
+}
+/* _content/BlazorApp/App/Pages/Candidates/Candidates.razor.rz.scp.css */
+.container[b-v5o67465a2] {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.head[b-v5o67465a2] {
+  padding: 20px;
+}
+.title[b-v5o67465a2] {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 110%;
+  color: #18181b;
+}
+.tabs[b-v5o67465a2] {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0px 36px;
+}
+.scrollable[b-v5o67465a2] {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollable[b-v5o67465a2]::-webkit-scrollbar {
+  display: none;
+}
+
+.content[b-v5o67465a2] {
+  display: flex;
+  flex: 1 1 auto;
+}
+.main[b-v5o67465a2] {
+  flex: 0 0 40%;
+  border-right: 1px solid #e6e6e6;
+}
+.row[b-v5o67465a2] {
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancies[b-v5o67465a2] {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px;
+  flex: 0 0 50%;
+}
+.comments[b-v5o67465a2] {
+  padding: 20px;
+  flex: 0 0 50%;
+}
+
+@media (max-width: 768px) {
+  .content[b-v5o67465a2] {
+    flex-direction: column;
+  }
+  .title[b-v5o67465a2] {
+    font-size: 18px;
+  }
+  .main[b-v5o67465a2] {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .vacancies[b-v5o67465a2] {
+    flex: 1 1 auto;
+  }
+  .comments[b-v5o67465a2] {
+    flex: 1 1 auto;
+  }
+}
+/* _content/BlazorApp/App/Shared/UI/ButtonIconSmall/ButtonIconSmall.razor.rz.scp.css */
+.button[b-gvzv28zsvw] {
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 4px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover[b-gvzv28zsvw] {
+  background-color: #e6e6e6;
+}
+.icon[b-gvzv28zsvw] {
+  font-size: 12px;
+  color: #747476;
+}
+/* _content/BlazorApp/App/Shared/UI/User/User.razor.rz.scp.css */
+.user[b-m56cgrxtwo] {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.avatar[b-m56cgrxtwo] {
+  border-radius: 120px;
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #929298;
+}
+
+.initials[b-m56cgrxtwo] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.info[b-m56cgrxtwo] {
+  display: flex;
+  gap: 6px;
+  align-items: end;
+}
+
+.name[b-m56cgrxtwo] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.occupation[b-m56cgrxtwo] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  color: #747476;
+}
+/* _content/BlazorApp/App/Widgets/MenuOption/MenuOption.razor.rz.scp.css */
+[b-ymf2eznwa9] .wrapper {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 0 1 44px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+[b-ymf2eznwa9] .wrapper.active {
+  background-color: #f6f6f6;
+}
+
+[b-ymf2eznwa9] .wrapper:hover {
+  background-color: #f6f6f6;
+}
+
+.icon[b-ymf2eznwa9] {
+  font-size: 16px;
+}
+
+.link[b-ymf2eznwa9] {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.text[b-ymf2eznwa9] {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.badge[b-ymf2eznwa9] {
+  border-radius: 120px;
+  padding: 2px 6px;
+  height: 20px;
+  min-width: 20px;
+  background-color: #d6ff2b;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #18181b;
+}
+
+.angle[b-ymf2eznwa9] {
+  font-size: 16px;
+  transform: rotate(90deg);
+}
+
+.subitems[b-ymf2eznwa9] {
+  display: none;
+}
+
+.subitems.active[b-ymf2eznwa9] {
+  display: block;
+}
+/* _content/BlazorApp/App/Widgets/Message/Message.razor.rz.scp.css */
+.wrapper[b-4ps67kfn9v] {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.message[b-4ps67kfn9v] {
+  border-radius: 8px;
+  padding: 6px 10px;
+  background-color: #f6f6f6;
+}
+.content[b-4ps67kfn9v] {
+  display: flex;
+}
+.body[b-4ps67kfn9v] {
+  flex: 1 1 auto;
+}
+.text[b-4ps67kfn9v] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.file[b-4ps67kfn9v] {
+  padding: 4px 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.image[b-4ps67kfn9v] {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image img[b-4ps67kfn9v] {
+}
+
+.action[b-4ps67kfn9v] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-icon[b-4ps67kfn9v] {
+  color: #fff;
+}
+
+.file-body[b-4ps67kfn9v] {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.file-name[b-4ps67kfn9v] {
+  max-width: 300px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+}
+
+.file-weight[b-4ps67kfn9v] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #747476;
+}
+
+.time[b-4ps67kfn9v] {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: #747476;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .file-name[b-4ps67kfn9v] {
+    max-width: 150px;
+  }
+}
+/* _content/BlazorApp/App/Widgets/TabOption/TabOption.razor.rz.scp.css */
+.wrapper[b-dt7793nqqi] {
+  cursor: pointer;
+  border-radius: 8px 8px 0 0;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 6px;
+  position: relative;
+  height: 48px;
+}
+
+.wrapper[b-dt7793nqqi]::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  height: 1px;
+  width: 0;
+  background-color: #18181b;
+  transition: all 0.3s ease;
+}
+
+.wrapper.active[b-dt7793nqqi]::after {
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.name[b-dt7793nqqi] {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 143%;
+  color: #18181b;
+  white-space: nowrap;
+}
+.badge[b-dt7793nqqi] {
+  border-radius: 120px;
+  padding: 2px 6px;
+  height: 20px;
+  min-width: 20px;
+  background-color: #d6ff2b;
+
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #18181b;
+}
